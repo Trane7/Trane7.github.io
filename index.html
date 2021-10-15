@@ -1,85 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/style.css" />
-        <title>Demetre's Portfolio</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Demetre's Portfolio</title>
 
-    </head>
-    <body>
-      <!-- navigation -->
-        <header>
-            <h1>
-                <a href="/">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="/">
                 Demetre's Portfolio
-                </a>
-            </h1>
-            <nav class="nav">
-                <!-- unordered list element -->
-                <ul class="nav-list">
-                    <!-- List item element -->
-                    <li class="nav-list"><a href="home" class="nav-link">Home</a></li>
-                    <li class="nav-list"><a href="about" class="nav-link">About Me</a></li>
-                    <li class="nav-list"><a href="work" class="nav-link">My Work</a></li>
-                    <li class="nav-list"><a href="links" class="nav-link">Links</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- intro -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hello, I am <strong>Demetre Growette</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle-intro"></p>
-            <img src="./images/pic of me.jpg" alt="a picture of Demetre Smiling" class="intro__img">
-        </section>
-
-        <!-- About Me -->
-        <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about"></p>
-
-            <div class="about__me--body">
-                <p>I am a very big team player</p>
-                <p></p>
-            </div>
-
-            <img src="./images/conoe.png" alt="Demetre on a conoe">
-        </section>
-
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title">My Work</h2>
-            <p class="section__subtitle"></p>
-
-            <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="#" alt="" class="portfolio--img">
-                </a>
-
-                <a href="#" class="portfolio__Sitem">
-                    <img src="#" alt="" class="portfolio--img">
-                </a>
-            </div>
-        </section>
-
-        <!-- Footer --> <!-- add title to footer to state links -->
-        <footer>
-            <a href="mailto:dgrowette@gmail.com" class="footer-link">Dgrowette@gmail.com</a>
-            <ul class="social-list">
-                <li class="socail-list--item"><a class="social-list--link"
-                    href="https://github.com/Trane7/Trane7.github.io">https://github.com/Trane7/Trane7.github.io</a></li>
-                <li class="socail-list--item"><a class="social-list--link"
-                    href="https://www.linkedin.com/in/demetre-growette-0776a7b7/">https://www.linkedin.com/in/demetre-growette-0776a7b7/</a></li>
+            </a>
+        </h1>
+        <nav class="nav">
+            <!-- unordered list element -->
+            <ul class="nav-list">
+                <!-- List item element -->
+                <li class="nav-list"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-list"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="nav-list"><a href="#work" class="nav-link">My Work</a></li>
+                <li class="nav-list"><a href="#links" class="nav-link">Resume</a></li>
             </ul>
-        </footer>
+        </nav>
+    </header>
 
-    </body>
+    <!-- intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Demetre Growette</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle-intro"></p>
+        <img src="./images/pic of me.jpg" alt="a picture of Demetre Smiling" class="intro__img">
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Myself</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about__me--body" id="wrap">
+            <img src="./images/conoe.png" alt="Demetre on a conoe" class="conoePic" />
+            <p id="text">I am a very out going person.<br />
+                Hard worker who works until the job is done.</p>
+        </div>
+
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <a href="https://lernantino.github.io/run-buddy/" class="Run__Buddy">
+                <img src="./images/runbuddy.PNG" alt="picture of website" class="runbuddy__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="my-resume" id="resume">
+        <h2 class="section__title">My Resume</h2>
+        <p>Can be found at:</p>
+        <a href="https://www.linkedin.com/in/demetre-growette-0776a7b7/">Linkedin Resume</a>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <a href="#" class="Resume">
+                <img src="#" alt="#" class="#">
+            </a>
+        </div>
+    </section>
+
+<br /> 
+
+    <!-- Footer -->
+    <!-- add title to footer to state links -->
+    <footer>
+        <h3 class="section__title">Contact Me</h3>
+        <a href="mailto:dgrowette@gmail.com" class="footer-link">Dgrowette@gmail.com</a>
+        <ul class="social-list">
+            <li class="socail-list--item"><a class="social-list--link"
+                    href="https://github.com/Trane7/Trane7.github.io">https://github.com/Trane7/Trane7.github.io</a>
+            </li>
+            <li class="socail-list--item"><a class="social-list--link"
+                    href="https://www.linkedin.com/in/demetre-growette-0776a7b7/">https://www.linkedin.com/in/demetre-growette-0776a7b7/</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
 </html>
