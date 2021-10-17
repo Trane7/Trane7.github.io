@@ -13,11 +13,19 @@
   
   img {
       float: left;
+      margin-bottom: 10%;
 
   }
 
   p {
       color: #f8c302;
+  }
+
+  #ptag {
+    color: #f8c302;
+    margin-top: 70%;
+    height: auto;
+    flex-wrap: wrap;
   }
 
   
@@ -70,7 +78,7 @@
   }
 
   h2 {
-      margin-top: 10%;
+      margin-top: 70%;
   }
 
   #resume {
@@ -81,35 +89,44 @@
       color: rgb(117, 114, 114);
   }
   
-  /* NAVBAR STYLES END */
 
   /* overlapping text on picture */
 
 #wrap {
     position:relative; 
-    width: 200px;  
-    height: 145px;
-    border: 1px solid grey;
+    width: 700px;  
+
 }
 
 
-#text {
+#header {
 z-index:100;
-  position:absolute;   
+   
   color:#f8c302;
   font-size:20px;
   font-weight:bold;
   right: 10px;
-  left:10px;
+  left: 500px;
   top:100px;
 }
+
+#text {
+  z-index:100;
+    position:absolute;   
+    color:#f8c302;
+    font-size:20px;
+    font-weight:bold;
+    right: 10px;
+    left: 500px;
+    top: 200;
+  }
   
 
-/* resize img */
+/* resize img 
 .resize {
   width: 400px;
   height: auto;
-}
+}*/
 
 .resize {
   width: 700px;
@@ -149,15 +166,6 @@ section {
 }
 
 /* SECTION TITLE STYLES START */
-.section-title {
-    font-size: 48px;
-    border-bottom: 3px solid;
-    color: #024e76;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
   
 .primary-border {
     border-color: silver;
@@ -178,4 +186,10 @@ section {
   
   .flex-row {
     display: flex;
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap:wrap;
   }
